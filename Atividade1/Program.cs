@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace atividades
 {
@@ -9,18 +7,42 @@ namespace atividades
     {
         public static void Main(String[] args)
         {
-            Console.WriteLine("Digite uma senha: ");
-            Console.WriteLine("Essa senha deve possuir 8 caracteres, pelo menos uma letra maiúscula, um número, e um caracter especial");
-            string senha = Console.ReadLine();
-
             string charEspecial = "/-!@#_*";
+            string senha;
+            bool senhaValida = false;
 
-            Boolean senhaConfirmada = senha.Any(c => charEspecial.Contains(c));
-            
+            do
+            {
+                Console.WriteLine("\nDigite uma senha:");
+                Console.WriteLine("A senha deve ter pelo menos:");
+                Console.WriteLine("- 8 caracteres");
+                Console.WriteLine("- 1 letra maiúscula");
+                Console.WriteLine("- 1 número");
+                Console.WriteLine($"- 1 caractere especial ({charEspecial})");
+                senha = Console.ReadLine();
 
-            System.Console.WriteLine($"Você digitou a senha: {senhaConfirmada}");
+                bool temTamanhoMinimo = senha.Length >= 8;
+                bool temMaiuscula = senha.Any(char.IsUpper);
+                bool temNumero = senha.Any(char.IsDigit);
+                bool temEspecial = senha.Any(c => charEspecial.Contains(c));
 
+                // Debug (imprime os critérios)
+                Console.WriteLine($"\nVerificando critérios:");
+                Console.WriteLine($"✔ Tamanho >= 8 ............: {temTamanhoMinimo}");
+                Console.WriteLine($"✔ Contém maiúscula ........: {temMaiuscula}");
+                Console.WriteLine($"✔ Contém número ...........: {temNumero}");
+                Console.WriteLine($"✔ Contém caractere especial: {temEspecial}");
+
+                senhaValida = temTamanhoMinimo && temMaiuscula && temNumero && temEspecial;
+
+                if (!senhaValida)
+                {
+                    Console.WriteLine("\n❌ Senha inválida. Verifique os critérios acima e tente novamente.");
+                }
+
+            } while (!senhaValida);
+
+            Console.WriteLine($"\n✅ Senha cadastrada com sucesso.");
         }
-
     }
 }

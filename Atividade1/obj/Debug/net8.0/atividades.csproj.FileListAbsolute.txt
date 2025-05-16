@@ -12,3 +12,4 @@ C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade1\obj\Debug\net8.0\refin
 C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade1\obj\Debug\net8.0\atividades.pdb
 C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade1\obj\Debug\net8.0\atividades.genruntimeconfig.cache
 C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade1\obj\Debug\net8.0\ref\atividades.dll
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade1\obj\Debug\net8.0\atividades.sourcelink.json

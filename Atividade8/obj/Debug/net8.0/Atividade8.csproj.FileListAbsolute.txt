@@ -1,0 +1,15 @@
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\bin\Debug\net8.0\Atividade8.exe
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\bin\Debug\net8.0\Atividade8.deps.json
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\bin\Debug\net8.0\Atividade8.runtimeconfig.json
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\bin\Debug\net8.0\Atividade8.dll
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\bin\Debug\net8.0\Atividade8.pdb
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.AssemblyInfo.cs
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.sourcelink.json
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.dll
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\refint\Atividade8.dll
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.pdb
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\Atividade8.genruntimeconfig.cache
+C:\Users\USER\Documents\Juliano\Codigos\cSharp\Atividade8\obj\Debug\net8.0\ref\Atividade8.dll

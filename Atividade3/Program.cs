@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Atividade3
 {
@@ -9,13 +6,23 @@ namespace Atividade3
     {
         public static void Main(String[] args)
         {
-            System.Console.WriteLine("Digite um número inteiro positivo para fazer o fatoria: ");
+            Console.WriteLine("Digite um número inteiro positivo para calcular o fatorial:");
             int num = int.Parse(Console.ReadLine());
 
-            while (num)
+            if (num < 0)
             {
-                
+                Console.WriteLine("Número inválido! Digite um número inteiro positivo.");
+                return;
             }
+
+            long fatorial = 1;
+
+            for (int i = 1; i <= num; i++)
+            {
+                fatorial *= i;
+            }
+
+            Console.WriteLine($"O fatorial de {num} é: {fatorial}");
         }
     }
 }
