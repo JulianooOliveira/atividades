@@ -1,6 +1,6 @@
 ### Juliano de Oliveira Faria
 
-#### Descrição dos exercícios
+### Descrição dos exercícios
 
 1 - Valida se o usuário digitou corretamente os parâmetros exigidos.
   • Mínimo de 8 caracteres
@@ -26,3 +26,6 @@
 
 10 - Permite o usuário a criar, editar, excluir atividades pendentes, ou concluí-las.
 
+### Explicação detalhada
+
+2 - 
