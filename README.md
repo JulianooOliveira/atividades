@@ -28,4 +28,7 @@
 
 ### Explicação detalhada
 
-2 - 
+2 - Nesse sistema, o programa apresenta uma mensagem na tela solicitando um número qualquer, esse número é inteiro e armazenado 
+em uma variável chamada num, utilizando a estrutura de repetição FOR, ele inicia outra variável de controle que se inicia em 0 e vai até 10, na apresentação na tela para o usuário, ele mostra as informações juntamente com o cálculo, exemplo: 5 X 0 = 0.
+
+7 - Nesse sistema, é solicitado 10 números para o usuário, esses números são armazenados em uma aray chamada numeros, e o armazenamento é feito através da estrutura de repetição FOR, no qual pede ao usuários digitar esses números através do teclado, e utiliza uma estrutura CONDICIONAL, que soma apenas os números pares.
